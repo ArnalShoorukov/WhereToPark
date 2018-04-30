@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/available"
+        android:title="@string/available"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/nearest"
+        android:title="@string/nearest"
+        app:showAsAction="withText" />
+
+
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/history"
+        app:showAsAction="withText" />
+
+
+    <item
+        android:id="@+id/myswitch"
+        android:enabled="false"
+        android:title="FakeLocation"
+        app:actionLayout="@layout/switch_layout"
+        app:showAsAction="ifRoom" />
+
+</menu>
